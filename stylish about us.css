@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img golongan/background.jpg");
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+.head{
+    position: fixed;
+    z-index: 77;
+    width: 100%;
+    margin-top:-130px;
+}
+.header{
+    background-color: #E17D07;
+    width: 100%;
+    height: 75px;
+    left:100px;
+}
+.header button{
+    z-index: 66;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 10px;
+    background-color: peru;
+    border: 0px solid white;
+    border-radius: 100px;
+}
+.search{
+    position: absolute;
+    top: 20px;
+    right: 70px;
+}
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid grey;
+    float: left;
+    width: 85%;
+    background: #f1f1f1;
+}
+.search input{
+    width: 300px;
+    height: 30px;
+    border-radius: 100px;
+}
+.search button{
+    width: 30px;
+    height: 30px;
+    color:#ff5e00;
+    border-radius: 100px;
+}
+
+.header h1{
+    color: white;
+    font-size: 2.3em;
+    line-height: 70px;
+    letter-spacing: 0.1em;
+    font-family: Pacifico;
+    margin-left: 100px;
+}
+.nav{
+    position: relative;
+    background-color: #E7955A;
+    width: 100%;
+    height: 35px;
+    
+}
+.nav ul{
+    list-style: none;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+.nav ul li{
+    float: left;
+    margin-top: 6px;
+}
+.nav ul li a{
+    color: #fdfdfd;
+    font-family: 'Montserrat', sans-serif;
+    padding: 70px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.nav ul li a:hover{
+    color: #ff0000;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+.section{
+    background-color: rgba(255, 255, 255, 0.726);
+    margin-top: 130px;
+    margin-left: 300px;
+    padding-top: 50px;
+    margin-bottom: 15px;
+    width:900px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 8px solid gold;
+    border-style: inset;
+}
+.section h2{
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 10px;
+        text-align: center;
+        color: rgb(7, 7, 7);
+        font-size: 2.5em;
+    }
+img{
+    height: 300px;
+    width: 230px;
+    border: 4px solid white;
+    border-radius: 50px;
+}
+.card-body ul li{
+    margin: 18px;
+}
+.card-body ul li a{
+    margin-left: 10px;
+}
+.footer{
+    position: relative;
+    top: 10px;
+    width: 1520px;
+    background-color: #E17D07;
+    border-top: 5px solid rgb(217, 255, 0);
+    border-bottom: 5px solid rgb(217, 255, 0);
+}
+.footer h1{
+    color: white;
+    font-size: 2.8em;
+    line-height: 70px;
+    letter-spacing: 0.1em;
+    font-family: Pacifico;
+    padding-top: 50px;
+    text-align: center;
+}
+.footer p{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+.media{
+    margin: 40px 0px 40px 0px;
+    text-align: center;
+}
+.media li{
+    list-style: none;
+    display: inline;
+    padding: 50px;
+}
+.footer li svg{
+    width:30px;
+    height: 30px;
+    color: white;
+}
+.footer li svg:hover{
+    width:35px;
+    height: 35px;
+    color: rgb(0, 60, 255);
+    transition: 0.4s;
+}
+.footer .last{
+    background-color: #ff8800;
+    font-size: 1.6em;
+    height:70px;
+}
+.card-body ul{
+    list-style: none;
+}
+.card-body h5{
+    padding-left: 30px;
+}
+.card-body p{
+    padding-left:  30px;
+}
+.card-mb-3{
+    border-radius: 80px;
+}
